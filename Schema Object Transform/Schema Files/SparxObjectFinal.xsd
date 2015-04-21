@@ -7,14 +7,15 @@
 				<xs:element name="fields" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
+							<xs:element name="ConcatObjectAttribute" type="xs:string"/>
 							<xs:element name="ObjectName" type="xs:string"/>
 							<xs:element name="AttributeName" type="xs:string"/>
 							<xs:choice>
 								<xs:sequence>
 									<xs:choice>
 										<xs:sequence>
-											<xs:element name="Fieldlabel" type="xs:string" minOccurs="0"/>
-											<xs:element name="DataType" type="xs:string" minOccurs="0"/>
+											<xs:element name="Fieldlabel" type="xs:string"/>
+											<xs:element name="DataType" type="xs:string"/>
 											<xs:element name="Length" type="xs:string" minOccurs="0"/>
 											<xs:element name="PicklistValues" minOccurs="0" maxOccurs="unbounded">
 												<xs:complexType>

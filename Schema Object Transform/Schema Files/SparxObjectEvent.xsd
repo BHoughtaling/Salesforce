@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2015 rel. 3 (x64) (http://www.altova.com) by Compassion International (Compassion International) -->
+<!-- edited with XMLSpy v2015 rel. 3 sp1 (x64) (http://www.altova.com) by Compassion International (Compassion International) -->
 <xs:schema xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://soap.sforce.com/2006/04/metadata" elementFormDefault="qualified">
 	<xs:element name="CustomObject">
 		<xs:complexType>
@@ -15,7 +15,8 @@
 										<xs:sequence>
 											<xs:element name="Fieldlabel" type="xs:string"/>
 											<xs:element name="DataType" type="xs:string"/>
-											<xs:element name="PicklistValues" maxOccurs="unbounded">
+											<xs:element name="Length" type="xs:string" minOccurs="0"/>
+											<xs:element name="PicklistValues" minOccurs="0" maxOccurs="unbounded">
 												<xs:complexType>
 													<xs:sequence>
 														<xs:element name="PicklistName" type="xs:string"/>

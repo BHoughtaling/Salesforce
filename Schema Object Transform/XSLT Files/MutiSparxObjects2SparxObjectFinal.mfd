@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2015r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="xslt2"/>
+		<structure>
+			<children>
+				<component name="SparxObjectFinal" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="564" lty="111" rbx="803" rby="365"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" inpkey="2" expanded="1">
+											<entry name="ObjectName" inpkey="6"/>
+											<entry name="AttributeName" inpkey="7"/>
+											<entry name="Fieldlabel" inpkey="8"/>
+											<entry name="DataType" inpkey="9"/>
+											<entry name="Length" inpkey="10" expanded="1"/>
+											<entry name="PicklistValues" inpkey="11"/>
+											<entry name="ConcatObjectAttribute" inpkey="12"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectFinal.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectFinal.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="6" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="13"/>
+						<datapoint pos="1" key="14"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="15"/>
+					</targets>
+					<view ltx="461" lty="19" rbx="536" rby="77"/>
+				</component>
+				<component name="SparxObjectCombine" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="156" lty="111" rbx="421" rby="311"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" outkey="1" expanded="1">
+											<entry name="ObjectName" outkey="16"/>
+											<entry name="AttributeName" outkey="17"/>
+											<entry name="Fieldlabel" outkey="18"/>
+											<entry name="DataType" outkey="19"/>
+											<entry name="Length" outkey="20" expanded="1"/>
+											<entry name="PicklistValues" outkey="21" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectCombine.xsd" inputinstance="..\Output XML Files\CI Salesforce\Sparx*.xml" outputinstance="..\Schema Files\SparxObjectCombine.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges>
+					<edge edgekey="22">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+				</edges>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2" edgekey="23"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="12" edgekey="24"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="13" edgekey="25"/>
+							<edge vertexkey="6" edgekey="26"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="14" edgekey="27"/>
+							<edge vertexkey="7" edgekey="28"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="8" edgekey="29"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="9" edgekey="30"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="10" edgekey="31"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="11" edgekey="22"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

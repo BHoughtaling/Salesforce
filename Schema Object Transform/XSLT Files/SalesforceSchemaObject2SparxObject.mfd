@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2015r3 -->
+<!-- Edited with Altova MapForce 2015r3sp1 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
@@ -27,53 +27,6 @@
 						<datapoint pos="0" key="104"/>
 					</targets>
 					<view ltx="593" lty="549" rbx="668" rby="607"/>
-				</component>
-				<component name="constant" library="core" uid="8" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="94"/>
-					</targets>
-					<view ltx="518" lty="434" rbx="593" rby="452"/>
-					<data>
-						<constant value="Lookup" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="concat" library="core" uid="19" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="110"/>
-						<datapoint pos="1" key="111"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="112"/>
-					</targets>
-					<view ltx="678" lty="603" rbx="753" rby="661"/>
-				</component>
-				<component name="constant" library="core" uid="20" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="105"/>
-					</targets>
-					<view ltx="549" lty="643" rbx="593" rby="661"/>
-					<data>
-						<constant value=")" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="if-else" library="core" uid="6" kind="4">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="106"/>
-						<datapoint pos="1" key="107"/>
-						<datapoint pos="2" key="131"/>
-						<datapoint pos="3" key="132"/>
-						<datapoint pos="4" key="108"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="109"/>
-					</targets>
-					<view ltx="782" lty="493" rbx="880" rby="605"/>
 				</component>
 				<component name="constant" library="core" uid="37" kind="2">
 					<properties/>
@@ -119,17 +72,6 @@
 						<constant value="(" datatype="string"/>
 						<wsdl/>
 					</data>
-				</component>
-				<component name="equal" library="core" uid="22" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="133"/>
-						<datapoint pos="1" key="134"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="135"/>
-					</targets>
-					<view ltx="636" lty="194" rbx="689" rby="250"/>
 				</component>
 				<component name="constant" library="core" uid="23" kind="2">
 					<properties/>
@@ -299,6 +241,109 @@
 					</targets>
 					<view ltx="1409" lty="-130" rbx="1506" rby="-54"/>
 				</component>
+				<component name="constant" library="core" uid="8" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="94"/>
+					</targets>
+					<view ltx="542" lty="493" rbx="617" rby="511"/>
+					<data>
+						<constant value="Lookup" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="19" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="110"/>
+						<datapoint pos="1" key="111"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="112"/>
+					</targets>
+					<view ltx="678" lty="603" rbx="753" rby="661"/>
+				</component>
+				<component name="if-else" library="core" uid="6" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="106"/>
+						<datapoint pos="1" key="107"/>
+						<datapoint pos="2" key="131"/>
+						<datapoint pos="3" key="132"/>
+						<datapoint pos="4" key="108"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="109"/>
+					</targets>
+					<view ltx="782" lty="493" rbx="880" rby="605"/>
+				</component>
+				<component name="equal" library="core" uid="22" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="133"/>
+						<datapoint pos="1" key="134"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="135"/>
+					</targets>
+					<view ltx="636" lty="194" rbx="689" rby="250"/>
+				</component>
+				<component name="constant" library="core" uid="73" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="294"/>
+					</targets>
+					<view ltx="320" lty="714" rbx="427" rby="732"/>
+					<data>
+						<constant value="Master-Detail(" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="72" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="295"/>
+						<datapoint pos="1" key="296"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="297"/>
+					</targets>
+					<view ltx="505" lty="673" rbx="602" rby="749"/>
+				</component>
+				<component name="constant" library="core" uid="20" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="105"/>
+					</targets>
+					<view ltx="549" lty="643" rbx="593" rby="661"/>
+					<data>
+						<constant value=")" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="75" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="298"/>
+						<datapoint pos="1" key="299"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="300"/>
+					</targets>
+					<view ltx="636" lty="691" rbx="711" rby="749"/>
+				</component>
+				<component name="concat" library="core" uid="77" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="301"/>
+						<datapoint pos="1" key="302"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="303"/>
+					</targets>
+					<view ltx="751" lty="691" rbx="826" rby="749"/>
+				</component>
 				<component name="SparxObjectInitial" library="xml" uid="3" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" PassThrough="1"/>
 					<view ltx="917" lty="24" rbx="1170" rby="557"/>
@@ -324,6 +369,7 @@
 												</entry>
 												<entry name="sorted" inpkey="155"/>
 											</entry>
+											<entry name="length" inpkey="312" outkey="313"/>
 										</entry>
 									</entry>
 								</entry>
@@ -357,6 +403,7 @@
 											</entry>
 											<entry name="label" outkey="53"/>
 											<entry name="type" outkey="57"/>
+											<entry name="length" outkey="311"/>
 											<entry name="referenceTo" outkey="65"/>
 											<entry name="lookupFilter" expanded="1"/>
 										</entry>
@@ -364,15 +411,15 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\Schema Files\SalesforceSchemaObject.xsd" inputinstance="C:\AntTest\CIDev\20150325-110057\objects\*.object" outputinstance="..\Output XML Files\CI Salesforce\SalesforceSchemaObject.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<document schema="..\Schema Files\SalesforceSchemaObject.xsd" inputinstance="C:\AntTest\CIDev\20150421-091009 CIProduction\objects\*.object" outputinstance="..\Output XML Files\CI Salesforce\SalesforceSchemaObject.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
 						<wsdl/>
 					</data>
 				</component>
 				<component name="SparxObjectReference" library="xml" uid="45" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="1343" lty="65" rbx="1617" rby="227"/>
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1343" lty="65" rbx="1613" rby="289"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
@@ -387,6 +434,7 @@
 											<entry name="AttributeName" inpkey="242"/>
 											<entry name="Fieldlabel" inpkey="243"/>
 											<entry name="DataType" inpkey="244"/>
+											<entry name="Length" inpkey="314"/>
 											<entry name="PicklistValues" inpkey="290" expanded="1">
 												<entry name="PicklistName" inpkey="291"/>
 											</entry>
@@ -396,37 +444,6 @@
 							</entry>
 						</root>
 						<document schema="..\Schema Files\SparxObjectReference.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectReference.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="SparxObjectTask" library="xml" uid="65" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="2008" lty="210" rbx="2240" rby="384"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="CustomObject" expanded="1">
-										<entry name="fields" inpkey="200" expanded="1">
-											<entry name="ObjectName" inpkey="201"/>
-											<entry name="AttributeName" inpkey="202"/>
-											<entry name="Fieldlabel" inpkey="203"/>
-											<entry name="DataType" inpkey="204"/>
-											<entry name="PicklistValues" inpkey="282" expanded="1">
-												<entry name="PicklistName" inpkey="283"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="..\Schema Files\SparxObjectTask.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectTask.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -449,6 +466,7 @@
 											<entry name="AttributeName" inpkey="224"/>
 											<entry name="Fieldlabel" inpkey="225"/>
 											<entry name="DataType" inpkey="226"/>
+											<entry name="Length" inpkey="315"/>
 											<entry name="PicklistValues" inpkey="284" expanded="1">
 												<entry name="PicklistName" inpkey="285"/>
 											</entry>
@@ -458,6 +476,38 @@
 							</entry>
 						</root>
 						<document schema="..\Schema Files\SparxObjectEvent.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectEvent.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="SparxObjectTask" library="xml" uid="65" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="2008" lty="210" rbx="2240" rby="384"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" inpkey="200" expanded="1">
+											<entry name="ObjectName" inpkey="201"/>
+											<entry name="AttributeName" inpkey="202"/>
+											<entry name="Fieldlabel" inpkey="203"/>
+											<entry name="DataType" inpkey="204"/>
+											<entry name="Length" inpkey="316"/>
+											<entry name="PicklistValues" inpkey="282" expanded="1">
+												<entry name="PicklistName" inpkey="283"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectTask.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectTask.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -502,6 +552,7 @@
 					<vertex vertexkey="65">
 						<edges>
 							<edge vertexkey="103" edgekey="116"/>
+							<edge vertexkey="299" edgekey="304"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="94">
@@ -532,6 +583,7 @@
 					<vertex vertexkey="105">
 						<edges>
 							<edge vertexkey="111" edgekey="122"/>
+							<edge vertexkey="302" edgekey="305"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="109">
@@ -542,7 +594,6 @@
 					<vertex vertexkey="112">
 						<edges>
 							<edge vertexkey="107" edgekey="124"/>
-							<edge vertexkey="132" edgekey="139"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="128">
@@ -553,6 +604,7 @@
 					<vertex vertexkey="135">
 						<edges>
 							<edge vertexkey="131" edgekey="141"/>
+							<edge vertexkey="295" edgekey="306"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="142">
@@ -699,6 +751,38 @@
 							<edge vertexkey="283" edgekey="288"/>
 							<edge vertexkey="285" edgekey="289"/>
 							<edge vertexkey="291" edgekey="293"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="294">
+						<edges>
+							<edge vertexkey="296" edgekey="307"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="297">
+						<edges>
+							<edge vertexkey="298" edgekey="308"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="300">
+						<edges>
+							<edge vertexkey="301" edgekey="309"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="303">
+						<edges>
+							<edge vertexkey="132" edgekey="310"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="311">
+						<edges>
+							<edge vertexkey="312" edgekey="317"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="313">
+						<edges>
+							<edge vertexkey="314" edgekey="318"/>
+							<edge vertexkey="315" edgekey="319"/>
+							<edge vertexkey="316" edgekey="320"/>
 						</edges>
 					</vertex>
 				</vertices>
