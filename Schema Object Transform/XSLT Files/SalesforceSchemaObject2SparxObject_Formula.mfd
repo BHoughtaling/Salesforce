@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2015r3sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="xslt2"/>
+		<structure>
+			<children>
+				<component name="concat" library="core" uid="17" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="102"/>
+						<datapoint pos="1" key="103"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="104"/>
+					</targets>
+					<view ltx="593" lty="549" rbx="668" rby="607"/>
+				</component>
+				<component name="constant" library="core" uid="37" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="158"/>
+					</targets>
+					<view ltx="678" lty="348" rbx="724" rby="366"/>
+					<data>
+						<constant value=";;" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="string-join" library="core" uid="36" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="159"/>
+						<datapoint pos="1" key="160"/>
+						<datapoint pos="2" key="161"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="162"/>
+					</targets>
+					<view ltx="766" lty="293" rbx="880" rby="366"/>
+				</component>
+				<component name="concat" library="core" uid="14" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="98"/>
+						<datapoint pos="1" key="99"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="100"/>
+					</targets>
+					<view ltx="464" lty="512" rbx="539" rby="570"/>
+				</component>
+				<component name="constant" library="core" uid="23" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="128"/>
+					</targets>
+					<view ltx="518" lty="232" rbx="617" rby="250"/>
+					<data>
+						<constant value="MasterDetail" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="remove-fileext" library="core" uid="34" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="146"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="147"/>
+					</targets>
+					<view ltx="636" lty="4" rbx="753" rby="43"/>
+				</component>
+				<component name="remove-folder" library="core" uid="32" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="144"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="145"/>
+					</targets>
+					<view ltx="497" lty="4" rbx="593" rby="43"/>
+				</component>
+				<component name="contains" library="core" uid="43" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="182"/>
+						<datapoint pos="1" key="183"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="184"/>
+					</targets>
+					<view ltx="505" lty="65" rbx="593" rby="121"/>
+				</component>
+				<component name="constant" library="core" uid="44" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="181"/>
+					</targets>
+					<view ltx="440" lty="82" rbx="483" rby="100"/>
+					<data>
+						<constant value="." datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="41" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="177"/>
+						<datapoint/>
+						<datapoint pos="2" key="179"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="180"/>
+					</targets>
+					<view ltx="627" lty="55" rbx="724" rby="131"/>
+				</component>
+				<component name="constant" library="core" uid="50" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="198"/>
+					</targets>
+					<view ltx="1306" lty="-72" rbx="1373" rby="-54"/>
+					<data>
+						<constant value="Event" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="49" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="199"/>
+					</targets>
+					<view ltx="1086" lty="-103" rbx="1162" rby="-85"/>
+					<data>
+						<constant value="Activity" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="contains" library="core" uid="67" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="207"/>
+						<datapoint pos="1" key="208"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="209"/>
+					</targets>
+					<view ltx="1648" lty="-130" rbx="1736" rby="-74"/>
+				</component>
+				<component name="constant" library="core" uid="69" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="214"/>
+					</targets>
+					<view ltx="1692" lty="-62" rbx="1754" rby="-44"/>
+					<data>
+						<constant value="Task" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="contains" library="core" uid="48" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="218"/>
+						<datapoint pos="1" key="219"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="220"/>
+					</targets>
+					<view ltx="1204" lty="-120" rbx="1292" rby="-64"/>
+				</component>
+				<component name="fields" library="core" uid="71" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="229"/>
+						<datapoint pos="1" key="230"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="231"/>
+						<datapoint pos="1" key="232"/>
+					</targets>
+					<view ltx="1306" lty="-205" rbx="1409" rby="-149"/>
+				</component>
+				<component name="if-else" library="core" uid="46" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="194"/>
+						<datapoint pos="1" key="195"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="197"/>
+					</targets>
+					<view ltx="1409" lty="-130" rbx="1506" rby="-54"/>
+				</component>
+				<component name="constant" library="core" uid="8" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="94"/>
+					</targets>
+					<view ltx="542" lty="493" rbx="617" rby="511"/>
+					<data>
+						<constant value="Lookup" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="73" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="294"/>
+					</targets>
+					<view ltx="320" lty="714" rbx="427" rby="732"/>
+					<data>
+						<constant value="Master-Detail(" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="72" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="295"/>
+						<datapoint pos="1" key="296"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="297"/>
+					</targets>
+					<view ltx="505" lty="673" rbx="602" rby="749"/>
+				</component>
+				<component name="concat" library="core" uid="75" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="298"/>
+						<datapoint pos="1" key="299"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="300"/>
+					</targets>
+					<view ltx="636" lty="691" rbx="711" rby="749"/>
+				</component>
+				<component name="fields" library="core" uid="70" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="215"/>
+						<datapoint pos="1" key="216"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="217"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1863" lty="-205" rbx="1966" rby="-149"/>
+				</component>
+				<component name="if-else" library="core" uid="88" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="343"/>
+						<datapoint pos="1" key="344"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="345"/>
+					</targets>
+					<view ltx="2409" lty="-41" rbx="2506" rby="35"/>
+				</component>
+				<component name="substring-before" library="core" uid="92" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="346"/>
+						<datapoint pos="1" key="347"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="348"/>
+					</targets>
+					<view ltx="2183" lty="115" rbx="2291" rby="171"/>
+				</component>
+				<component name="constant" library="core" uid="93" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="349"/>
+					</targets>
+					<view ltx="2217" lty="66" rbx="2281" rby="84"/>
+					<data>
+						<constant value="__pc" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="90" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="350"/>
+						<datapoint pos="1" key="351"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="352"/>
+					</targets>
+					<view ltx="2307" lty="19" rbx="2382" rby="77"/>
+				</component>
+				<component name="if-else" library="core" uid="68" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="210"/>
+						<datapoint pos="1" key="211"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="213"/>
+					</targets>
+					<view ltx="1794" lty="-110" rbx="1891" rby="-34"/>
+				</component>
+				<component name="contains" library="core" uid="80" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="336"/>
+						<datapoint pos="1" key="337"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="338"/>
+					</targets>
+					<view ltx="2096" lty="-153" rbx="2184" rby="-97"/>
+				</component>
+				<component name="fields" library="core" uid="86" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="331"/>
+						<datapoint pos="1" key="329"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="330"/>
+						<datapoint/>
+					</targets>
+					<view ltx="2217" lty="-257" rbx="2320" rby="-201"/>
+				</component>
+				<component name="constant" library="core" uid="84" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="342"/>
+					</targets>
+					<view ltx="2008" lty="88" rbx="2066" rby="106"/>
+					<data>
+						<constant value="__c" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="contains" library="core" uid="83" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="339"/>
+						<datapoint pos="1" key="340"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="341"/>
+					</targets>
+					<view ltx="2096" lty="19" rbx="2184" rby="75"/>
+				</component>
+				<component name="fields" library="core" uid="94" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="380"/>
+						<datapoint pos="1" key="381"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="379"/>
+						<datapoint/>
+					</targets>
+					<view ltx="2409" lty="-257" rbx="2512" rby="-201"/>
+				</component>
+				<component name="constant" library="core" uid="81" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="332"/>
+					</targets>
+					<view ltx="2008" lty="-18" rbx="2085"/>
+					<data>
+						<constant value="Contact" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="87" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="333"/>
+						<datapoint pos="1" key="334"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="335"/>
+					</targets>
+					<view ltx="2380" lty="-168" rbx="2477" rby="-92"/>
+				</component>
+				<component name="constant" library="core" uid="95" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="382"/>
+					</targets>
+					<view ltx="2301" lty="-84" rbx="2382" rby="-66"/>
+					<data>
+						<constant value="Account" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="77" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="301"/>
+						<datapoint pos="1" key="302"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="303"/>
+					</targets>
+					<view ltx="751" lty="691" rbx="826" rby="749"/>
+				</component>
+				<component name="equal" library="core" uid="22" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="133"/>
+						<datapoint pos="1" key="134"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="135"/>
+					</targets>
+					<view ltx="636" lty="194" rbx="689" rby="250"/>
+				</component>
+				<component name="constant" library="core" uid="15" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="101"/>
+					</targets>
+					<view ltx="440" lty="603" rbx="484" rby="621"/>
+					<data>
+						<constant value="(" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="20" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="105"/>
+					</targets>
+					<view ltx="549" lty="643" rbx="593" rby="661"/>
+					<data>
+						<constant value=")" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="12" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="95"/>
+						<datapoint pos="1" key="96"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="97"/>
+					</targets>
+					<view ltx="655" lty="434" rbx="708" rby="490"/>
+				</component>
+				<component name="concat" library="core" uid="19" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="110"/>
+						<datapoint pos="1" key="111"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="112"/>
+					</targets>
+					<view ltx="678" lty="583" rbx="753" rby="641"/>
+				</component>
+				<component name="if-else" library="core" uid="6" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="106"/>
+						<datapoint pos="1" key="107"/>
+						<datapoint pos="2" key="131"/>
+						<datapoint pos="3" key="132"/>
+						<datapoint pos="4" key="108"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="109"/>
+					</targets>
+					<view ltx="782" lty="493" rbx="880" rby="605"/>
+				</component>
+				<component name="constant" library="core" uid="113" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="433"/>
+					</targets>
+					<view ltx="350" lty="871" rbx="427" rby="889"/>
+					<data>
+						<constant value="Number" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="contains" library="core" uid="112" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="434"/>
+						<datapoint pos="1" key="435"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="436"/>
+					</targets>
+					<view ltx="467" lty="893" rbx="555" rby="949"/>
+				</component>
+				<component name="constant" library="core" uid="117" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="449"/>
+					</targets>
+					<view ltx="350" lty="822" rbx="396" rby="840"/>
+					<data>
+						<constant value=", " datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="SparxObjectInitial" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" PassThrough="1"/>
+					<view ltx="917" lty="24" rbx="1170" rby="557"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" inpkey="36" outkey="233" expanded="1">
+											<entry name="ObjectName" inpkey="41" outkey="234"/>
+											<entry name="AttributeName" inpkey="26" outkey="235"/>
+											<entry name="Fieldlabel" inpkey="125" outkey="236"/>
+											<entry name="DataType" inpkey="93" outkey="237"/>
+											<entry name="formula" inpkey="391" outkey="392"/>
+											<entry name="picklist" expanded="1">
+												<entry name="PicklistValues" outkey="238" expanded="1">
+													<entry name="PicklistName" inpkey="152" outkey="239"/>
+												</entry>
+												<entry name="sorted" inpkey="155"/>
+											</entry>
+											<entry name="length" inpkey="312" outkey="313"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectInitial.xsd" inputinstance="..\Output XML Files\CI Salesforce\Pass-Through\SparxOutputInitial.xml" outputinstance="..\Output XML Files\CI Salesforce\Pass-Through\SparxOutputInitial.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="114" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="438"/>
+						<datapoint pos="1" key="439"/>
+						<datapoint pos="2" key="458"/>
+						<datapoint pos="3" key="459"/>
+						<datapoint pos="4" key="440"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="441"/>
+					</targets>
+					<view ltx="656" lty="873" rbx="754" rby="985"/>
+				</component>
+				<component name="constant" library="core" uid="121" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="460"/>
+					</targets>
+					<view ltx="320" lty="998" rbx="397" rby="1016"/>
+					<data>
+						<constant value="Percent" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="contains" library="core" uid="120" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="461"/>
+						<datapoint pos="1" key="462"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="463"/>
+					</targets>
+					<view ltx="464" lty="960" rbx="552" rby="1016"/>
+				</component>
+				<component name="concat" library="core" uid="116" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="450"/>
+						<datapoint pos="1" key="451"/>
+						<datapoint pos="2" key="452"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="453"/>
+					</targets>
+					<view ltx="484" lty="790" rbx="569" rby="866"/>
+				</component>
+				<component name="SalesforceSchemaObject" library="xml" uid="4" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="187" lty="24" rbx="417" rby="666"/>
+					<data>
+						<root scrollposition="142">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" outkey="142" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" outkey="45" expanded="1">
+											<entry name="fullName" outkey="46"/>
+											<entry name="picklist" outkey="47" expanded="1">
+												<entry name="picklistValues" expanded="1">
+													<entry name="fullName" outkey="49"/>
+												</entry>
+												<entry name="sorted" outkey="156"/>
+											</entry>
+											<entry name="label" outkey="53"/>
+											<entry name="scale" outkey="448"/>
+											<entry name="type" outkey="57"/>
+											<entry name="precision" outkey="437"/>
+											<entry name="length" outkey="311"/>
+											<entry name="formula" outkey="398"/>
+											<entry name="referenceTo" outkey="65"/>
+											<entry name="lookupFilter" expanded="1"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SalesforceSchemaObject.xsd" inputinstance="..\..\CIProduction Schema Objects\objects\*.object" outputinstance="..\Output XML Files\CI Salesforce\SalesforceSchemaObject.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="SparxObjectEvent" library="xml" uid="61" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="1678" lty="131" rbx="1917" rby="343"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" inpkey="222" expanded="1">
+											<entry name="ObjectName" inpkey="223"/>
+											<entry name="AttributeName" inpkey="224"/>
+											<entry name="Fieldlabel" inpkey="225"/>
+											<entry name="DataType" inpkey="226"/>
+											<entry name="Length" inpkey="315"/>
+											<entry name="PicklistValues" inpkey="284" expanded="1">
+												<entry name="PicklistName" inpkey="285"/>
+											</entry>
+											<entry name="Formula" inpkey="390"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectEvent.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectEvent.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="SparxObjectTask" library="xml" uid="65" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2008" lty="210" rbx="2244" rby="439"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" inpkey="200" expanded="1">
+											<entry name="ObjectName" inpkey="201"/>
+											<entry name="AttributeName" inpkey="202"/>
+											<entry name="Fieldlabel" inpkey="203"/>
+											<entry name="DataType" inpkey="204"/>
+											<entry name="Length" inpkey="316"/>
+											<entry name="PicklistValues" inpkey="282" expanded="1">
+												<entry name="PicklistName" inpkey="283"/>
+											</entry>
+											<entry name="Formula" inpkey="389"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectTask.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectTask.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="SparxObjectPerson" library="xml" uid="78" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="2601" lty="116" rbx="2831" rby="342"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" inpkey="322" expanded="1">
+											<entry name="ObjectName" inpkey="321"/>
+											<entry name="AttributeName" inpkey="323"/>
+											<entry name="Fieldlabel" inpkey="324"/>
+											<entry name="DataType" inpkey="325"/>
+											<entry name="Length" inpkey="328"/>
+											<entry name="PicklistValues" inpkey="326" expanded="1">
+												<entry name="PicklistName" inpkey="327"/>
+											</entry>
+											<entry name="Formula" inpkey="393"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectPerson.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectPerson.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="SparxObjectReference" library="xml" uid="45" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1343" lty="65" rbx="1613" rby="289"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://soap.sforce.com/2006/04/metadata"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="CustomObject" expanded="1">
+										<entry name="fields" inpkey="240" expanded="1">
+											<entry name="ObjectName" inpkey="241"/>
+											<entry name="AttributeName" inpkey="242"/>
+											<entry name="Fieldlabel" inpkey="243"/>
+											<entry name="DataType" inpkey="244"/>
+											<entry name="Length" inpkey="314"/>
+											<entry name="PicklistValues" inpkey="290" expanded="1">
+												<entry name="PicklistName" inpkey="291"/>
+											</entry>
+											<entry name="Formula" inpkey="388"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\Schema Files\SparxObjectReference.xsd" outputinstance="..\Output XML Files\CI Salesforce\SparxObjectReference.xml" instanceroot="{http://soap.sforce.com/2006/04/metadata}CustomObject"/>
+						<wsdl/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="45">
+						<edges>
+							<edge vertexkey="36" edgekey="69"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="46">
+						<edges>
+							<edge vertexkey="179" edgekey="186"/>
+							<edge vertexkey="183" edgekey="187"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="47">
+						<edges>
+							<edge vertexkey="159" edgekey="168"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="49">
+						<edges>
+							<edge vertexkey="160" edgekey="172"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="53">
+						<edges>
+							<edge vertexkey="125" edgekey="126"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="57">
+						<edges>
+							<edge vertexkey="95" edgekey="113"/>
+							<edge vertexkey="98" edgekey="115"/>
+							<edge vertexkey="133" edgekey="136"/>
+							<edge vertexkey="108" edgekey="428"/>
+							<edge vertexkey="434" edgekey="442"/>
+							<edge vertexkey="461" edgekey="464"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="65">
+						<edges>
+							<edge vertexkey="103" edgekey="116"/>
+							<edge vertexkey="299" edgekey="304"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="94">
+						<edges>
+							<edge vertexkey="96" edgekey="117"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="97">
+						<edges>
+							<edge vertexkey="106" edgekey="118"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="100">
+						<edges>
+							<edge vertexkey="102" edgekey="119"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="101">
+						<edges>
+							<edge vertexkey="99" edgekey="120"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="104">
+						<edges>
+							<edge vertexkey="110" edgekey="121"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="105">
+						<edges>
+							<edge vertexkey="111" edgekey="122"/>
+							<edge vertexkey="302" edgekey="305"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="109">
+						<edges>
+							<edge vertexkey="93" edgekey="123"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="112">
+						<edges>
+							<edge vertexkey="107" edgekey="124"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="128">
+						<edges>
+							<edge vertexkey="134" edgekey="140"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="135">
+						<edges>
+							<edge vertexkey="295" edgekey="306"/>
+							<edge vertexkey="131" edgekey="429"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="142">
+						<edges>
+							<edge vertexkey="144" edgekey="148"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="145">
+						<edges>
+							<edge vertexkey="146" edgekey="149"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="147">
+						<edges>
+							<edge vertexkey="41" edgekey="150"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="156">
+						<edges>
+							<edge vertexkey="155" edgekey="165"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="158">
+						<edges>
+							<edge vertexkey="161" edgekey="166"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="162">
+						<edges>
+							<edge vertexkey="152" edgekey="171"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="180">
+						<edges>
+							<edge vertexkey="26" edgekey="190"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="181">
+						<edges>
+							<edge vertexkey="182" edgekey="191"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="184">
+						<edges>
+							<edge vertexkey="177" edgekey="193"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="197">
+						<edges>
+							<edge vertexkey="223" edgekey="247"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="198">
+						<edges>
+							<edge vertexkey="195" edgekey="248"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="199">
+						<edges>
+							<edge vertexkey="218" edgekey="249"/>
+							<edge vertexkey="207" edgekey="250"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="209">
+						<edges>
+							<edge vertexkey="210" edgekey="251"/>
+							<edge vertexkey="216" edgekey="252"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="213">
+						<edges>
+							<edge vertexkey="201" edgekey="253"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="214">
+						<edges>
+							<edge vertexkey="211" edgekey="254"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="217">
+						<edges>
+							<edge vertexkey="200" edgekey="255"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="220">
+						<edges>
+							<edge vertexkey="194" edgekey="256"/>
+							<edge vertexkey="230" edgekey="257"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="231">
+						<edges>
+							<edge vertexkey="222" edgekey="260"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="232">
+						<edges>
+							<edge vertexkey="240" edgekey="261"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="233">
+						<edges>
+							<edge vertexkey="215" edgekey="262"/>
+							<edge vertexkey="229" edgekey="263"/>
+							<edge vertexkey="331" edgekey="353"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="234">
+						<edges>
+							<edge vertexkey="219" edgekey="264"/>
+							<edge vertexkey="208" edgekey="265"/>
+							<edge vertexkey="241" edgekey="266"/>
+							<edge vertexkey="336" edgekey="383"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="235">
+						<edges>
+							<edge vertexkey="242" edgekey="267"/>
+							<edge vertexkey="224" edgekey="268"/>
+							<edge vertexkey="202" edgekey="269"/>
+							<edge vertexkey="339" edgekey="356"/>
+							<edge vertexkey="346" edgekey="357"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="236">
+						<edges>
+							<edge vertexkey="243" edgekey="270"/>
+							<edge vertexkey="225" edgekey="271"/>
+							<edge vertexkey="203" edgekey="272"/>
+							<edge vertexkey="324" edgekey="358"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="237">
+						<edges>
+							<edge vertexkey="244" edgekey="273"/>
+							<edge vertexkey="226" edgekey="274"/>
+							<edge vertexkey="204" edgekey="275"/>
+							<edge vertexkey="325" edgekey="359"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="238">
+						<edges>
+							<edge vertexkey="282" edgekey="286"/>
+							<edge vertexkey="284" edgekey="287"/>
+							<edge vertexkey="290" edgekey="292"/>
+							<edge vertexkey="326" edgekey="360"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="239">
+						<edges>
+							<edge vertexkey="283" edgekey="288"/>
+							<edge vertexkey="285" edgekey="289"/>
+							<edge vertexkey="291" edgekey="293"/>
+							<edge vertexkey="327" edgekey="361"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="294">
+						<edges>
+							<edge vertexkey="296" edgekey="307"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="297">
+						<edges>
+							<edge vertexkey="298" edgekey="308"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="300">
+						<edges>
+							<edge vertexkey="301" edgekey="309"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="303">
+						<edges>
+							<edge vertexkey="132" edgekey="430"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="311">
+						<edges>
+							<edge vertexkey="440" edgekey="443"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="313">
+						<edges>
+							<edge vertexkey="314" edgekey="318"/>
+							<edge vertexkey="315" edgekey="319"/>
+							<edge vertexkey="316" edgekey="320"/>
+							<edge vertexkey="328" edgekey="362"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="330">
+						<edges>
+							<edge vertexkey="380" edgekey="384"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="332">
+						<edges>
+							<edge vertexkey="337" edgekey="364"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="335">
+						<edges>
+							<edge vertexkey="321" edgekey="376"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="338">
+						<edges>
+							<edge vertexkey="329" edgekey="377"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="341">
+						<edges>
+							<edge vertexkey="343" edgekey="367"/>
+							<edge vertexkey="333" edgekey="378"/>
+							<edge vertexkey="381" edgekey="385"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="342">
+						<edges>
+							<edge vertexkey="340" edgekey="369"/>
+							<edge vertexkey="347" edgekey="370"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="345">
+						<edges>
+							<edge vertexkey="323" edgekey="371"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="348">
+						<edges>
+							<edge vertexkey="350" edgekey="372"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="349">
+						<edges>
+							<edge vertexkey="351" edgekey="373"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="352">
+						<edges>
+							<edge vertexkey="344" edgekey="374"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="379">
+						<edges>
+							<edge vertexkey="322" edgekey="386"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="382">
+						<edges>
+							<edge vertexkey="334" edgekey="387"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="392">
+						<edges>
+							<edge vertexkey="388" edgekey="413"/>
+							<edge vertexkey="390" edgekey="414"/>
+							<edge vertexkey="389" edgekey="415"/>
+							<edge vertexkey="393" edgekey="416"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="398">
+						<edges>
+							<edge vertexkey="391" edgekey="420"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="433">
+						<edges>
+							<edge vertexkey="435" edgekey="444"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="436">
+						<edges>
+							<edge vertexkey="438" edgekey="445"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="437">
+						<edges>
+							<edge vertexkey="450" edgekey="454"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="441">
+						<edges>
+							<edge vertexkey="312" edgekey="447"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="448">
+						<edges>
+							<edge vertexkey="452" edgekey="455"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="449">
+						<edges>
+							<edge vertexkey="451" edgekey="456"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="453">
+						<edges>
+							<edge vertexkey="439" edgekey="457"/>
+							<edge vertexkey="459" edgekey="465"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="460">
+						<edges>
+							<edge vertexkey="462" edgekey="466"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="463">
+						<edges>
+							<edge vertexkey="458" edgekey="467"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

@@ -4,42 +4,49 @@
 
 
 	<types>
-		<members>Account</members>
-		<members>Activity</members>
-		<members>Activity_Plan__c</members>
-		<members>Address__c</members>
-		<members>Beneficiary_Assessment__c</members>
-		<members>Beneficiary_Class_Attendance__c</members>
-		<members>Beneficiary_Lifecycle_Event__c</members>
+		<!--<members>Account</members>
+		<members>Agency_Feedback__c</members>
+		<members>Attendees__c</members>
+		<members>BudgetExpense__c</members>
 		<members>Campaign</members>
-		<members>CampaignMember</members>
-		<members>Case</members>
-		<members>CaseComment</members>
+		<members>Campaign_Member__c</members>
+		<members>Change_Request__c</members>
+		<members>Communication__c</members>
+		<members>Communication_Preference__c</members>
 		<members>Contact</members>
 		<members>Content__c</members>
-		<members>Error_Log__c</members>
+		<members>Contract__c</members>
+		<members>Cost_Center__c</members>
+		<members>Cross_Channel_Collaboration__c</members>
+		<members>Deliverable__c</members>
 		<members>Event</members>
-		<members>Field_Group__c</members>
-		<members>Field_Group_Element__c</members>
-		<members>FO_Administration__c</members>
-		<members>Global_Data__c</members>
-		<members>Household__c</members>
-		<members>Household_Member__c</members>
-		<members>ICP_Lifecycle_Events__c</members>
-		<members>Immunization__c</members>
+		<members>Event_Material__c</members>
+		<members>Event_Room__c</members>
+		<members>Goals__c</members>
+		<members>Influencer__c</members>
 		<members>Lead</members>
-		<members>Medical_Incidents__c</members>
-		<members>Monthly_Class_Schedule__c</members>
-		<members>Needs_Association__c</members>
+		<members>Lifetime_Achievement_Award__c</members>
+		<members>Marketing_Strategy__c</members>
 		<members>Note</members>
 		<members>NoteAndAttachment</members>
-		<members>PM_Hierarchy__c</members>
-		<members>Beneficiary_Assessment__c</members>
-		<members>Ranking_Administration__c</members>
-		<members>Responses__c</members>
-		<members>Solution</members>
+		<members>Opportunity</members>
+		<members>Partner_Type__c</members>
+		<members>Planned_Giving__c</members>
+		<members>Presentations__c</members>
+		<members>Recipient__c</members>
+		<members>Relationship_Group__c</members>
+		<members>Source_Code__c</members>
+		<members>Sponsorship_and_Revenue__c</members>
+		<members>Survey__c</members>
+		<members>Survey_Question__c</members>
+		<members>SurveyQuestionResponse__c</members>
+		<members>SurveyTaker__c</members>
 		<members>Task</members>
 		<members>User</members>
+		<members>Venue__c</members>
+		<members>Volunteer_Shift__c</members>
+		<members>Volunteer_Slot__c</members> -->
+		<members>Proj__c</members>
 		<name>CustomObject</name>
 	</types>
 

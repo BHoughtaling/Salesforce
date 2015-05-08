@@ -13,8 +13,8 @@
 								<xs:sequence>
 									<xs:choice>
 										<xs:sequence>
-											<xs:element name="Fieldlabel" type="xs:string"/>
-											<xs:element name="DataType" type="xs:string"/>
+											<xs:element name="Fieldlabel" type="xs:string" minOccurs="0"/>
+											<xs:element name="DataType" type="xs:string" minOccurs="0"/>
 											<xs:element name="Length" type="xs:string" minOccurs="0"/>
 											<xs:element name="PicklistValues" minOccurs="0" maxOccurs="unbounded">
 												<xs:complexType>
@@ -23,6 +23,7 @@
 													</xs:sequence>
 												</xs:complexType>
 											</xs:element>
+											<xs:element name="Formula" type="xs:string" minOccurs="0"/>
 										</xs:sequence>
 									</xs:choice>
 								</xs:sequence>

@@ -7,10 +7,12 @@
 		<members>Account</members>
 		<members>Activity</members>
 		<members>Activity_Plan__c</members>
+		<members>LookedUpFromActivity</members>
 		<members>Address__c</members>
 		<members>Beneficiary_Assessment__c</members>
 		<members>Beneficiary_Class_Attendance__c</members>
 		<members>Beneficiary_Lifecycle_Event__c</members>
+		<members>BeneficiaryStatus__c</members>
 		<members>Campaign</members>
 		<members>CampaignMember</members>
 		<members>Case</members>

@@ -80,7 +80,7 @@
 													<xs:element name="type" type="xs:string"/>
 												</xs:sequence>
 												<xs:sequence>
-													<xs:element name="length" type="xs:short"/>
+													<xs:element name="length" type="xs:string"/>
 													<xs:element name="required" type="xs:boolean"/>
 													<xs:element name="trackHistory" type="xs:boolean"/>
 													<xs:element name="trackTrending" type="xs:boolean"/>
